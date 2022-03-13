@@ -73,6 +73,32 @@ header .logo a{
 /* End Header Part */
 
 
+/* Start Banner Part */
+#banner-part{
+    background: url(images/banner.jpg) no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+.banner-container{
+    max-width: 1140px;
+    width: 96%;
+    padding: 20px 2%;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 40%;
+    color: #fff;
+}
+.banner-container h2{
+    font-size: 2rem;
+}
+#banner-part img{
+    width: 100%;
+    height: 500px;
+}
+/* End Banner Part */
+
+
 /* Start Contact Part */
 #contact-container h2{
     font-size: 2rem;
@@ -149,27 +175,25 @@ input, textarea{
 /* End Contact Part */
 
 
-/* Start Banner Part */
-#banner-part{
-    background: url(images/banner.jpg) no-repeat;
-    background-size: cover;
-    height: 450px;
+
+/* Start Details Part */
+#details-area{
+    padding: 20px 0;
 }
-.banner-conatiner{
-    max-width: 1140px;
-    width: 96%;
-    padding: 20px 2%;
-    margin: 0 auto;
+#details-area p{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    position: relative;
-    top: 40%;
-    color: #fff;
 }
-.banner-conatiner h2{
-    font-size: 2rem;
+#details-area h3{
+    padding: 0;
 }
-#banner-part img{
-    width: 100%;
-    height: 500px;
+#details-area span{
+    font-size: 1.2rem;
+    color: green;
 }
-/* End Banner Part */
+#details-area .child{
+    align-self: center;
+}
+#details-area .child:last-child p{
+    font-family: 'Poppins', sans-serif;
+}
+/* End Details Part */
