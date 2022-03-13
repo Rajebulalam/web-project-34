@@ -70,7 +70,6 @@ header .logo a{
     padding: 10px 0;
     padding-left: 20px;
 }
-.navbar ul li{}
 /* End Header Part */
 
 
@@ -100,10 +99,6 @@ header .logo a{
     border-radius: 5px;
     box-shadow: 10px 10px 30px gray;
     height: 500px;
-}
-#contact-container .child:first-child{
-    /* padding: 25px 0; */
-
 }
 .child-top{
     text-align: center;
@@ -152,3 +147,29 @@ input, textarea{
     background-color: #E03A3C;
 }
 /* End Contact Part */
+
+
+/* Start Banner Part */
+#banner-part{
+    background: url(images/banner.jpg) no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+.banner-conatiner{
+    max-width: 1140px;
+    width: 96%;
+    padding: 20px 2%;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 40%;
+    color: #fff;
+}
+.banner-conatiner h2{
+    font-size: 2rem;
+}
+#banner-part img{
+    width: 100%;
+    height: 500px;
+}
+/* End Banner Part */
