@@ -297,3 +297,30 @@ input, textarea{
     }
 }
 /* End Skill Part */
+
+
+/* Start Testimonial Part */
+#testimonial-area{
+    padding: 30px 0;
+    text-align: center;
+}
+#testimonial-area img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+#testimonial-area .child{
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 5px;
+    padding: 40px 10px;
+}
+#testimonial-area .child p{
+    color: #777777;
+    font-size: 14px;
+    padding: 10px 0;
+}
+#testimonial-area .child p strong{
+    font-size: 1rem;
+    padding: 5px 0;
+}
+/* End Testimonial Part */
