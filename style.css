@@ -195,5 +195,105 @@ input, textarea{
 }
 #details-area .child:last-child p{
     font-family: 'Poppins', sans-serif;
+    color: #777777;
 }
 /* End Details Part */
+
+
+/* Start Skill Part */
+#skill-area{
+    background-color: #F4F4F4;
+    padding: 20px 0;
+}
+.architecture, .digital-Marketer, .web-designer, .web-developer, .email-designer, .web-designer{
+    padding: 8px 0;
+}
+#skill-area .details{
+    display: flex;
+    justify-content: space-between;
+    color: #777777;
+    padding: 8px 0;
+}
+#skill-area .progressbar{
+    background-color: #E8D1A7;
+    width: 100%;
+    height: 3px;
+}
+#skill-area .progressbar span{
+    background-color: #F7A817;
+    display: block;
+    height: 3px;
+}
+#skill-area .architecture .progressbar span{
+    width:90%;
+    animation: architecture 2s;
+}
+@keyframes architecture{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+#skill-area .digital-Marketer .progressbar span{
+    width:80%;
+    animation: digital 2s;
+}
+@keyframes digital{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+#skill-area .web-designer .progressbar span{
+    width:70%;
+    animation: webDesigner 2s;
+}
+@keyframes webDesigner{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+#skill-area .web-developer .progressbar span{
+    width:95%;
+    animation: webDev 2s;
+}
+@keyframes webDev{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+#skill-area .email-designer .progressbar span{
+    width:85%;
+    animation: email 2s;
+}
+@keyframes email{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:85%;
+    }
+}
+#skill-area .template-designer .progressbar span{
+    width:75%;
+    animation: template 2s;
+}
+@keyframes template{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:75%;
+    }
+}
+/* End Skill Part */
