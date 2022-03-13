@@ -1,0 +1,116 @@
+/* Add Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* Start Common Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    line-height: 1.5em;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    max-width: 1140px;
+    width: 96%;
+    padding: 20px 2%;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 20px;
+}
+.fa-solid{
+    color: #E03A3C;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+/* End Common Styling */
+
+
+/* Start Contact Part */
+#contact-container h2{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+}
+#contact-container h2::after{
+    content: '';
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 5px;
+	background: #e03a3c;
+	bottom: -1;
+	left: calc(50% - 25px);
+}
+.child{
+    width: 100%;
+}
+#contact-container .child:last-child{
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px gray;
+}
+#contact-container .child:first-child{
+    padding: 25px 0;
+
+}
+.child-top{
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 10px 10px 40px gray;
+}
+.child h3{
+    color: #777777;
+    padding: 10px;
+}
+.child-bottom{
+    display: flex;
+    column-gap: 20px;
+    text-align: center;
+    margin: 40px 0 0;
+}
+.bottom{
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+    width: 50%;
+}
+input, textarea{
+    padding: 15px 20px;
+    width:100%;
+    margin: 10px 0;
+}
+#margin-top{
+    margin-top: 0;
+}
+.btn{
+    text-align: center;
+}
+#submit{
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #E03A3C;
+}
+/* End Contact Part */
